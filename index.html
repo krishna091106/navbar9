@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: dodgerblue;
+        }
+
+
+        .navbar {
+            background-color: #fff;
+            border-bottom-right-radius: 100px;
+            overflow: hidden;
+            width: 100vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            padding: 0px;
+        }
+
+        header .logo {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        header nav ul {
+            display: flex;
+        }
+
+        header nav ul li .button {
+            display: inline-block;
+            color: #000;
+            padding: 5px 0;
+            margin: 0 5px;
+            border: 3px solid transparent;
+            text-transform: uppercase;
+            transition: 0.2s;
+        }
+
+        header nav ul li a:hover,
+        header nav ul li a:active {
+            border-bottom-color: dodgerblue;
+        }
+
+        .navbar2 {
+            display: flex;
+            margin-left: 225px;
+        }
+
+        .box {
+            margin: 10px 10px;
+            padding: 0;
+            background-color: #fff;
+            width: 340px;
+            height: 260px;
+            border-radius: 10px;
+        }
+
+        img {
+            padding: 4px;
+            border-radius: 10px;
+        }
+
+        .meta1 {
+            border: #0063ba 2px solid;
+            border-radius: 100px;
+            padding: 0px 10px;
+            margin-left: 5px;
+            margin-right: 0px;
+            background-color: rgba(138, 187, 247, 0.89);
+            color: #000;
+            font-size: 16px;
+        }
+
+        .meta2 {
+            border: #0063ba 2px solid;
+            border-radius: 100px;
+            padding: 0px 10px;
+            margin-left: 0px;
+            margin-right: 0px;
+            background-color: rgba(138, 187, 247, 0.89);
+            color: #000;
+            font-size: 16px;
+        }
+
+        .about {
+            background-color: #fff;
+            width: 70vw;
+            height: 15vh;
+            margin: 30px 230px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            text-overflow: clip;
+        }
+
+        .viwe {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-left: 115px;
+            width: 110px;
+        }
+
+        p {
+            text-overflow: clip;
+            padding: 30px;
+            font-style: oblique;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .navbar {
+                background: #fff;
+                border-bottom-right-radius: 100px;
+                width: 100vw;
+                height: 5vh;
+                padding-left: 3px;
+            }
+
+            header nav ul {
+                font-size: 20px;
+                color: #000;
+                border: 3px solid transparent;
+            }
+
+            .navbar2 {
+                display: block;
+                margin-left: 15px;
+            }
+
+            .about {
+                background-color: #fff;
+                width: 300px;
+                height: 400px;
+                margin: 30px 15px;
+                border: 2px solid #fff;
+                border-radius: 10px;
+            }
+
+            p {
+                padding: 10px;
+                font-style: inherit;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li>
+                    <a href="" class="button">home</a>
+                </li>
+
+                <li>
+                    <a href="" class="button">hello</a>
+                </li>
+
+                <li>
+                    <a href="" class="button">download</a>
+                </li>
+
+                <li>
+                    <a href="" class="button">asus</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="nav_Check">
+        </label>
+    </header>
+    <header class="about">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corrupti accusantium illo alias
+                molestias consequuntur repellat delectus id commodi temporibus. Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Dolor dolore velit quam sed deserunt quos rem ad exercitationem, necessitatibus
+                quidem!
+            </p>
+        </div>
+    </header>
+    <header class="navbar2">
+        <div class="box">
+            <img src="WhatsApp Image 2023-05-16 at 8.06.57 AM.jpeg" width="340vw" height="200vh">
+            <samp class="meta1">GOAT</samp>
+            <samp class="meta2">GOAT</samp>
+            <div class="viwe">
+                <a href="">viwe more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="WhatsApp Image 2023-05-16 at 8.06.57 AM.jpeg" width="340vw" height="200vh">
+            <samp class="meta1">GOAT</samp>
+            <samp class="meta2">GOAT</samp>
+            <div class="viwe">
+                <a href="">viwe more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="WhatsApp Image 2023-05-16 at 8.06.57 AM.jpeg" width="340vw" height="200vh">
+            <samp class="meta1">GOAT</samp>
+            <samp class="meta2">GOAT</samp>
+            <div class="viwe">
+                <a href="">viwe more</a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
